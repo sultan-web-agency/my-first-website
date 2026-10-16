@@ -1,17 +1,17 @@
-#include <iostream>
+include <iostream>
 #include <string>
 using namespace std;
 class Teacher {
 public:
 string name;
-string subhject;
+string subject;
 Teacher(string n,string s) {
 name= n;
-subject=s;
+subject= s;
 }
-void sisplay() {
-cout << "Teacher name"<< name << endl;
-cout << "Subject << subject << endl;
+void display() {
+cout << "Teacher name:"<< name << endl;
+cout << "Subject:" << subject << endl;
 }
 };
 int main() {
