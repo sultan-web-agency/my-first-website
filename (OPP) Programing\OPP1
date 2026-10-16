@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+class Teacher {
+public:
+string name;
+string subhject;
+Teacher(string n,string s) {
+name= n;
+subject=s;
+}
+void sisplay() {
+cout << "Teacher name"<< name << endl;
+cout << "Subject << subject << endl;
+}
+};
+int main() {
+Teacher t1("Sir SULTAN","OPP");
+t1.display();
+return 0;
+}
