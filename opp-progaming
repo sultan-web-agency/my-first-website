@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+using namespace std;
+class Person{
+    public:
+    string name;
+    Person(string n) {
+        name= n;
+    }
+};
+class Teacher : public Person {
+    public:
+    string subject;
+    Teacher(string n,string s ): Person(n) {
+        subject = s;
+    }
+    void display() {
+        cout << "Teacher name:" << name << endl;
+        cout << "subject:" << subject << endl;
+    }
+};
+int main() {
+    Teacher t1("SIR SULTAN" , "OPP");
+    t1.display();
+    return 0;
+}   
+
+
+        
+    
+
+
+
